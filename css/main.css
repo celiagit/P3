@@ -1,0 +1,185 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+body {
+  font-family: sans-serif;
+}
+
+.element {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+}
+
+code {
+  background-color: #EEE;
+  padding: 0.5rem;
+  display: block;
+}
+
+header{
+  margin: 8em;
+  text-align: center;
+}
+
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation and footer */
+.navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #333333;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity: 0.9;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #bfbfbf !important;
+  }
+  .navbar-nav li a:hover {
+    color: #fff !important;
+    text-decoration: underline;
+  }
+  .navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+  }
+
+  footer {
+    background-color: #333333;
+    color: #f5f5f5;
+    padding: 32px;
+    margin-top: 3em;
+  }
+
+  .footer{
+    text-align: center;
+  }
+
+  .contain .clearfix {
+      clear: both;
+    }
+
+
+/*
+  bio TEXT ELEMENTS -------------------
+*/
+.bioname{
+  text-align: center;
+  font-size: 80px;
+  padding-top: 15rem;
+}
+
+.biosub{
+  text-align: center;
+  font-size: 14px;
+  color: #bfbfbf;
+  padding-top: 2.5em;
+}
+
+.aboutme{
+  text-align: center;
+  padding: 1.5em;
+}
+
+#bio{
+  padding-bottom: 15rem;
+}
+
+/* home project list layout */
+
+#product {
+  background-color: #333333;
+  color: white;
+}
+
+#ux{
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  float: left;
+  width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
+  /* padding: 50px; /* if you want space between the images */ */
+}
+
+.box4{
+  float: left;
+  width: 25%;
+}
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.p1 img{
+  width: 100%;
+  /* position: absolute; */
+}
+.pp1 img{
+  width: 100%;
+}
+
+/* button */
+.btn{
+  margin-left: 5em;
+  text-decoration: none;
+  background-color: white;
+  border-color: #bfbfbf;
+  cursor: pointer;
+}
+
+a{
+  color: #333333;
+}
+
+/* home body text */
+.homeh2{
+  text-align: center;
+  padding-top: 3em;
+}
+
+.homelist1{
+  text-align: justify;
+  margin: 5em;
+}
+
+.homelist2{
+  text-align: justify;
+  margin: 5em;
+}
+/*
+  COMBINED ELEMENTS -------------------
+
+*/
+.color1{
+  float: left;
+  width: 33.33%;
+  background-color: #333333;
+  color: white;
+}
+.color2{
+  float: left;
+  width: 33.33%;
+  background-color: #bfbfbf;
+}
+.color2{
+  float: left;
+  width: 33.33%;
+  background-color: #f5f5f5;
+}
