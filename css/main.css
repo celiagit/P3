@@ -184,7 +184,9 @@ a{
   width: 33.33%;
   background-color: #f5f5f5;
 }
-
+.contain a{
+  color:white;
+}
 
 
 
