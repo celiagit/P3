@@ -114,6 +114,10 @@ header{
   width: 50%; /* three boxes (use 25% for four, and 50% for two, etc) */
   /* padding: 50px; /* if you want space between the images */ */
 }
+.box2{
+  float: left;
+  width: 25%;
+}
 
 .box4{
   float: left;
@@ -197,9 +201,13 @@ a{
     width: 100%; /* three boxes (use 25% for four, and 50% for two, etc) */
     /* padding: 50px; /* if you want space between the images */ */
   }
+  .box2{
+    float: left;
+    width: 50%;
+  }
 
   .box4{
-    float: left;
+    float: right;
     width: 50%;
   }
   .color1{
