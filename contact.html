@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <title>P03 - Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -44,16 +45,29 @@
 
     <section id="bio">
       <h1 class="bioname">Celia Xu</h1>
-      <h3 class="biosub">Contact me</h3>
+      <h3 class="biosub">Feel free to contact me or leave the meaasge though the form. ↓</h3>
       <div class="contactpart">
-      <br><p class="contact">Email: celiax@sfu.ca</p></br>
-      <br><p class="contact">Phone: 778-782-7400</p></br>
-      <br><p class="contact">Address: 250-13450 102nd Avenue, Surrey, B.C., Canada V3T 0A3</p></br>
+      <p class="contact">Email: celiax@sfu.ca</p><br />
+      <p class="contact">Phone: 778-782-7400</p><br />
+      <p class="contact">Address: 250-13450 102nd Avenue, Surrey, B.C., Canada V3T 0A3</p>
     </div>
-    </section>
 
-    <section>
-      <div class="contact">
+<!-- contact form learned from:https://www.w3schools.com/howto/howto_css_contact_section.asp -->
+    <div class="container">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Last name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" name="emialaddress" placeholder="Email address..">
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Leave your message.." style="height:200px"></textarea>
+
+    <a class="btn2" href="home.html">Submit</a>
+</div>
+</section>
+
 
 
 
@@ -61,7 +75,7 @@
       <div class="footer">
         <div class="contain">
           <footer>
-            <p><a href="styleguide.html"> © 2019 Spring IAT - 339 Celia Xu </a></p>
+            <p><a href="styleguide.html"> © 2019 Spring IAT - 339 Celia Xu - Styleguide</a></p>
           </footer>
         </div>
       </div>
